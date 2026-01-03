@@ -159,8 +159,8 @@ small {
   .zh-page footer,
   .track footer,
   .track header {
-    width: 86% !important;
-    padding: 12px !important;
+    width: auto !important;
+    padding: auto !important;
     height: auto !important
   }
 }
