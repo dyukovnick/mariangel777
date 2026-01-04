@@ -2,7 +2,7 @@ body {
   margin: 0px;
   display: flex;
   align-items: center;
-  gap: 32px;
+  gap: 28px;
   flex-direction: column;
 }
 
@@ -34,7 +34,7 @@ body.track {
   margin-top: 184px;
   padding: 12px;
   border-radius: 92px;
-  box-shadow: 0px 0px 36px rgba(255, 255, 255, 0.7);
+  box-shadow: 0px 0px 32px rgba(255, 255, 255, 0.7);
 }
 
 .ru-page header,
@@ -48,9 +48,9 @@ body.track {
   height: 172px;
   text-align: center;
   padding: 12px;
-  margin-top: 8px;
+  margin-top: 16px;
   border-radius: 92px;
-  box-shadow: 0px 0px 36px rgba(255, 255, 255, 0.7);
+  box-shadow: 0px 0px 32px rgba(255, 255, 255, 0.7);
 }
 
 .ru-page main,
@@ -65,7 +65,7 @@ body.track {
   text-align: center;
   padding: 12px;
   border-radius: 92px;
-  box-shadow: 0px 0px 36px rgba(255, 255, 255, 0.7);
+  box-shadow: 0px 0px 32px rgba(255, 255, 255, 0.7);
 }
 
 .ru-page section,
@@ -79,7 +79,7 @@ body.track {
   text-align: center;
   padding: 12px;
   border-radius: 92px;
-  box-shadow: 0px 0px 36px rgba(255, 255, 255, 0.7);
+  box-shadow: 0px 0px 32px rgba(255, 255, 255, 0.7);
 }
 
 .ru-page footer,
@@ -100,7 +100,7 @@ body.track {
   padding: 12px;
   margin-top: 12px;
   border-radius: 92px;
-  box-shadow: 0 0px 36px rgba(255, 255, 255, 0.7);
+  box-shadow: 0 0px 32px rgba(255, 255, 255, 0.7);
 }
 
 .track footer {
