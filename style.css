@@ -2,12 +2,12 @@ body {
   margin: 0px;
   display: flex;
   align-items: center;
-  gap: 28px;
+  gap: 24px;
   flex-direction: column;
 }
 
 body.language {
-  background: linear-gradient(188deg, #111111 8%, #070496 40%, #111111 88%);
+  background: linear-gradient(188deg, #111111 4%, #070496 40%, #111111 96%);
   height: 100vh;
 }
 
@@ -20,18 +20,18 @@ body.zh-page {
 }
 
 body.track {
-  background: linear-gradient(172deg, #111111 4%, #960410 34%, #111111 96%);
+  background: linear-gradient(188deg, #111111 4%, #960410 34%, #111111 96%);
   height: 100vh;
 }
 
 .language main {
-  background-color: #645af0;
+  background-color: #605fc9;
   font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
     Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
-  width: 604px;
-  height: 192px;
+  width: 456px;
+  height: 232px;
   text-align: center;
-  margin-top: 184px;
+  margin-top: 208px;
   padding: 12px;
   border-radius: 92px;
   box-shadow: 0px 0px 32px rgba(255, 255, 255, 0.7);
@@ -41,14 +41,14 @@ body.track {
 .en-page header,
 .es-page header,
 .zh-page header {
-  background-color: #645af0;
+  background-color: #605fc9;
   font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
     Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
-  width: 544px;
-  height: 172px;
+  width: 504px;
+  height: 184px;
   text-align: center;
   padding: 12px;
-  margin-top: 16px;
+  margin-top: 24px;
   border-radius: 92px;
   box-shadow: 0px 0px 32px rgba(255, 255, 255, 0.7);
 }
@@ -57,11 +57,11 @@ body.track {
 .en-page main,
 .es-page main,
 .zh-page main {
-  background-color: #645af0;
+  background-color: #605fc9;
   font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
     Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
-  width: 612px;
-  height: 328px;
+  width: 592px;
+  height: 368px;
   text-align: center;
   padding: 12px;
   border-radius: 92px;
@@ -72,10 +72,10 @@ body.track {
 .en-page section,
 .es-page section,
 .zh-page section {
-  background-color: #645af0;
+  background-color: #605fc9;
   font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
-  width: 408px;
-  height: 572px;
+  width: 392px;
+  height: 584px;
   text-align: center;
   padding: 12px;
   border-radius: 92px;
@@ -87,25 +87,25 @@ body.track {
 .es-page footer,
 .zh-page footer {
   text-align: center;
-  color: #bdc7f0;
+  color: #d8cccf;
   font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
 
 .track header {
-  background-color: #bdc7f0;
+  background-color: #921414;
   font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   width: 484px;
   height: 436px;
   text-align: center;
   padding: 12px;
-  margin-top: 12px;
+  margin-top: 24px;
   border-radius: 92px;
-  box-shadow: 0 0px 32px rgba(255, 255, 255, 0.7);
+  box-shadow: 0 0px 32px rgba(110, 102, 102, 0.7);
 }
 
 .track footer {
   text-align: center;
-  color: #e07f87;
+  color: #d67c85;
   font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
 
@@ -129,14 +129,24 @@ small {
   font-weight: 700;
 }
 
-.nick {
-  color: #778bcc;
+.b-nick {
+  color: #3b3ecf;
+}
+
+.r-nick {
+  color: #ce2831;
+}
+
+.track-link {
+  color: #e65e5e;
+}
+
+.track-name {
+  color: #e79696;
 }
 
 @media (max-width: 604px) {
   .language main,
-  .language section,
- 
   .ru-page header,
   .ru-page main,
   .ru-page section,
@@ -153,11 +163,10 @@ small {
   .zh-page main,
   .zh-page section,
   .zh-page footer,
-  .track footer,
-  .track header {
+  .track header,
+  .track footer {
     width: 84% !important;
-    padding: 16px !important;
+    padding: 20px !important;
     height: auto !important
   }
 }
-
