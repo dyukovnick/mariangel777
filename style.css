@@ -1,0 +1,172 @@
+body {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  min-height: 100vh;
+  text-align: center;
+  gap: 24px;
+  margin: 0px;
+}
+
+body.language {
+  background: linear-gradient(188deg, #111111 4%, #070496 40%, #111111 96%);
+}
+
+body.ru-page,
+body.en-page,
+body.es-page,
+body.zh-page {
+  background: linear-gradient(172deg, #111111 4%, #070496 34%, #111111 96%);
+}
+
+body.track {
+  background: linear-gradient(188deg, #111111 4%, #960410 34%, #111111 96%);
+}
+
+.language main {
+  background-color: #605fc9;
+  width: 352px;
+  margin-top: 204px;
+  padding: 12px;
+}
+
+.ru-page header,
+.en-page header,
+.es-page header,
+.zh-page header {
+  background-color: #605fc9;
+  width: 484px;
+  padding: 12px;
+  margin-top: 24px;
+}
+
+.ru-page main,
+.en-page main,
+.es-page main,
+.zh-page main {
+  background-color: #605fc9;
+  width: 664px;
+  padding: 12px;
+}
+
+.ru-page section,
+.en-page section,
+.es-page section,
+.zh-page section {
+  background-color: #605fc9;
+  width: 404px;
+  padding: 12px;
+}
+
+.ru-page footer,
+.en-page footer,
+.es-page footer,
+.zh-page footer {
+  color: #d8cccf;
+}
+
+.track header {
+  background-color: #af0615;
+  width: 484px;
+  padding: 12px;
+  margin-top: 24px;
+}
+
+.track footer {
+  text-align: center;
+  color: #dd747e;
+}
+
+.language main,
+.ru-page header,
+.en-page header,
+.es-page header,
+.zh-page header,
+.ru-page main,
+.en-page main,
+.es-page main,
+.zh-page main,
+.ru-page section,
+.en-page section,
+.es-page section,
+.zh-page section,
+.track header {
+  border-radius: 84px;
+  box-shadow: 0 0 16px rgba(145, 137, 137, 0.7);
+}
+
+p {
+  font-size: 1.3rem;
+  font-weight: 700;
+  line-height: 1.32;
+}
+
+small {
+  font-size: 1.0rem;
+  font-weight: 100;
+}
+
+.big {
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+body.track p {
+  color: #f19191;
+}
+
+a {
+  display: inline-block;
+  color: #0003ac;
+  text-decoration: none;
+  transition: color 0.4s ease, transform 0.4s ease;
+}
+
+a:hover {
+  color: #070bca;
+  transform: scale(1.04);
+}
+
+body.track a {
+  color: #ff8181;
+}
+
+body.track a:hover {
+  color: #ec9d9d;
+}
+
+.b-nick {
+  color: #3b3ecf;
+}
+
+.r-nick {
+  color: #ce2831;
+}
+
+@media (max-width: 764px) {
+  .language main,
+  .ru-page header,
+  .ru-page main,
+  .ru-page section,
+  .en-page header,
+  .en-page main,
+  .en-page section,
+  .es-page header,
+  .es-page main,
+  .es-page section,
+  .zh-page header,
+  .zh-page main,
+  .zh-page section,
+  .track header {
+    max-width: 640px;
+    width: 84%;
+    padding: 20px;
+  }
+}
+
+@media (hover: none) {
+  a:hover {
+    transform: none;
+  }
+}
