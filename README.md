@@ -18,8 +18,8 @@ Open «index.html» in a browser to navigate to the desired language.
 
 ## Screenshots
 
-![Main page](screenshots/main-page.png)
-![English version](screenshots/en-page.png)
+![Main page](main-page.png)
+![English version](en-page.png)
 
 ##  Live Demo
 [Open website](https://dyukovnick.github.io/mariangel777/)
